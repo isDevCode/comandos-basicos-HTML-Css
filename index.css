@@ -58,3 +58,11 @@ Css facilita o reuso de regras. */
             .nomedaclasse{propriedade:valor;}
             Aplicação no HTML
             <p class="nomedaclasse">Texto </p> */
+            /* Propriedade Background */
+            /* A propriedad background é dividida de vários modos e pode assumir valores especifícos.
+             - Background-color: Define a cor do fundo de um elemento
+             - Background-image: Define uma imagem como fundo do elemento
+             - Background-size: Define o tamanho da imagem no elemento
+             - Background-position: Define a posição da imagem em relação à caixa
+             - Background-attachment: Define se a imagem de fundo rolará com a tela
+             - Background-repeat: Define se a imagem de fundo pode se repetir ou não */
