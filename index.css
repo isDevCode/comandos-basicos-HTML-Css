@@ -9,5 +9,22 @@ Css facilita o reuso de regras. */
             /* A extensão do arquivo salvo em css é .css */
             /* Tipos de css:
             - Inline: diretamente no HTML
-            - Incorporado: por meio da tag <style>, no topo da página, dentro da tag <head>
-            - Linkado ou externo: por meio da tag <link>, de modo a cinvulara o HTML a uma folha de estilso externa.
+            - Incorporado: por meio da tag <style>, no topo da página, dentro da tag <head>s
+            - Linkado ou externo: por meio da tag <link>, de modo a cinvulara o HTML a uma folha de estilso externa. */
+            /* Exemplo de Css */
+            /* CSS Inline:
+            O css Inline é adicionado junto ao código HTML por meio do atributo style. Isso permite atribuir novas propriedades
+            e alterar o visual do elemento. 
+            <p style="color:red; font-size:30px">Texto aqui </P>
+            /* CSS Incorporado
+            O Css incorporado é declarado no início do código HTML e deve ser adicionado dentro da tag <head>. Precisamos abrir e 
+            fechar a tag <style>
+            <style>
+            p{
+                color:blue;
+                font-size:30px
+            }
+            </style> 
+            /* CSS Linkado ou Externo
+            O Css Linkado ou Externo é adicionado em um arquivo separado do arquivo.html, esse arquivo pode ser ligado a várias
+            páginas HTML ao mesmo tempo. Assim a manutenção é feita de modo muito mais rápido.
