@@ -7,3 +7,7 @@ Css facilita o reuso de regras. */
             /* A ligação do Css com a página de conteúdos pode ser feita de formas distintas a partir de atributios, seletores, 
             classes e propriedades para aplicar as regras contidas no css. */
             /* A extensão do arquivo salvo em css é .css */
+            /* Tipos de css:
+            - Inline: diretamente no HTML
+            - Incorporado: por meio da tag <style>, no topo da página, dentro da tag <head>
+            - Linkado ou externo: por meio da tag <link>, de modo a cinvulara o HTML a uma folha de estilso externa.
