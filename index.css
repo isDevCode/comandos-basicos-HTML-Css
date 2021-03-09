@@ -15,7 +15,7 @@ Css facilita o reuso de regras. */
             /* CSS Inline:
             O css Inline é adicionado junto ao código HTML por meio do atributo style. Isso permite atribuir novas propriedades
             e alterar o visual do elemento. 
-            <p style="color:red; font-size:30px">Texto aqui </P>
+            <p style="color:red; font-size:30px">Texto aqui </P> */
             /* CSS Incorporado
             O Css incorporado é declarado no início do código HTML e deve ser adicionado dentro da tag <head>. Precisamos abrir e 
             fechar a tag <style>
@@ -24,7 +24,37 @@ Css facilita o reuso de regras. */
                 color:blue;
                 font-size:30px
             }
-            </style> 
+            </style> */
             /* CSS Linkado ou Externo
             O Css Linkado ou Externo é adicionado em um arquivo separado do arquivo.html, esse arquivo pode ser ligado a várias
-            páginas HTML ao mesmo tempo. Assim a manutenção é feita de modo muito mais rápido.
+            páginas HTML ao mesmo tempo. Assim a manutenção é feita de modo muito mais rápido. 
+            <head>
+            <link rel="stylesheet" type="text/css" href="folhadeestilo.css"
+            </head>                   
+            */
+            /* SELETORES */
+            /* Seletores são a declaração que o Css utiliza para identificar os elementos do HTML.
+            seletor {propriedade:valor;}
+            Seletor       | Formato | Descrição
+            Universal     |    *    | Qualquer elemento
+            Tipo elemento |   <e>   | Seleciona qualquer elemento do tipo <e>
+            Classe        |    .    | Seleciona os elemento que contêm a classe
+            ID            |    #    | Seleciona o elemento identificado com o ID
+            Link          |    a    | Seleciona a pseudo-class link
+            Hover         |  :hover | É aplicada quando posicionamos o mouse sobre o elemento
+            */
+            /* PROPŔIEDADES DE FOLHA DE ESTILO */
+            /*  ID = possibilita a identificação de um elemento por vez. O ID ele deve ser único nos elementos.
+            Exemplo:
+            Aplicação no CSS
+            #seuID {propriedade:valor;}
+            Aplicação no HTML
+            <p id="paragrafo1">Seutexto</p>
+
+            classe = possibilita a identificação de mais de um elemento ao mesmo tempo e aplicar formatação 
+            de forma exemplar.
+            Exemplo:
+            Aplicação no CSS
+            .nomedaclasse{propriedade:valor;}
+            Aplicação no HTML
+            <p class="nomedaclasse">Texto </p> */
